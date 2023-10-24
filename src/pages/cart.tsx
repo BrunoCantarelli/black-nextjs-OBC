@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import type { NextPage } from 'next'
 
-const Home: NextPage = () => {
+const Cart: NextPage = () => {
   return (
     <>
       <Head>
@@ -11,9 +11,9 @@ const Home: NextPage = () => {
           <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Welcome to Next.Js!</h1>
+      <h1>Carrinho de Compras</h1>
   </>
   )
 } 
 
-export default Home
+export default Cart
